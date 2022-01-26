@@ -1,3 +1,28 @@
+.icon{
+    text-align: center;
+    order: -1;
+    font-size: 50px;
+}
+div h2{
+    border-bottom: solid 2px #999;
+    font-size: 20px;
+}
+div p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: -10px;
+    height: 110px;
+    line-height: 17px;
+}
+div a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: #fff;  
+}
+
+/*==========card content==========*/
 .emoji{
     width: 350px;
     height: auto;
@@ -7,27 +32,11 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between; 
 }
-div h2{
-    border-bottom: solid 2px #999;
-}
-div a{
-    text-decoration: none;
-    padding: 10px;
-    background-color: blueviolet;
-    border-radius: 10px;
-    color: #fff;
-}
-div p{
-    font-size: 14px;
-    font-weight: normal;
-}
-.icon{
-    text-align: center;
-    order: -1;
-    margin: 10px;
-}
+
+/*==========layout==========*/
 .emojis{
     display: grid;
-    grid-template-columns: repeat(2,1fr);   
+    grid-template-columns: repeat(2,390px); 
 }
